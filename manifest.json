@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AdOps X-Ray",
+  "name": "Ad Inspector Devtools",
   "version": "2.0.0",
   "description": "Professional AdOps debugging tool. Detects ad units, SSPs, header bidding, and ad tech signals on any page.",
   "permissions": [
