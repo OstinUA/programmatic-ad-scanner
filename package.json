@@ -1,0 +1,17 @@
+{
+  "name": "adops-xray",
+  "version": "2.0.0",
+  "description": "Developer-first ad diagnostics Chrome extension for auditing live ad iframe behavior.",
+  "private": true,
+  "scripts": {
+    "validate:manifest": "node -e \"JSON.parse(require('fs').readFileSync('manifest.json','utf8'))\"",
+    "validate:js": "node --check src/core/constants.js && node --check src/core/detector.js && node --check src/core/scanner.js && node --check src/ui/popup/popup.js && node --check src/ui/popup/renderer.js",
+    "lint": "eslint src/",
+    "package": "zip -r adops-xray.zip manifest.json icons src -x '*.DS_Store'",
+    "validate": "npm run validate:manifest && npm run validate:js"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "license": "MIT"
+}

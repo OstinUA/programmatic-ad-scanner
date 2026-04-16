@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AdOps X-Ray</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">AdOps X-Ray</h1>
+    <span class="header__version">v2.0</span>
+  </header>
+
+  <main class="main">
+    <div class="actions">
+      <button id="scanBtn" class="btn btn--primary" type="button">
+        <span class="btn__label">Scan Page</span>
+      </button>
+      <button id="clearBtn" class="btn btn--secondary" type="button" disabled>
+        <span class="btn__label">Clear</span>
+      </button>
+    </div>
+
+    <div id="statusArea" class="status" role="status" aria-live="polite"></div>
+
+    <section id="resultsArea" class="results" hidden>
+      <h2 class="section__title">Summary</h2>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat__value" id="totalCount">0</span>
+          <span class="stat__label">Total Ads</span>
+        </div>
+        <div class="stat stat--google">
+          <span class="stat__value" id="googleCount">0</span>
+          <span class="stat__label">Google</span>
+        </div>
+        <div class="stat stat--prebid">
+          <span class="stat__value" id="prebidCount">0</span>
+          <span class="stat__label">Prebid</span>
+        </div>
+        <div class="stat stat--amazon">
+          <span class="stat__value" id="amazonCount">0</span>
+          <span class="stat__label">Amazon</span>
+        </div>
+      </div>
+
+      <h2 class="section__title">Ad Tech Signals</h2>
+      <ul class="signals" id="signalsList"></ul>
+
+      <h2 class="section__title">Detected Units</h2>
+      <div class="units" id="unitsList">
+        <p class="units__empty">No units captured.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Developer tooling · DOM-based diagnostics</span>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

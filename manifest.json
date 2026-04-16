@@ -1,14 +1,15 @@
 {
   "manifest_version": 3,
   "name": "AdOps X-Ray",
-  "version": "1.0.0",
-  "description": "Professional AdOps debugging tool. Highlights ad units and detects SSP calls.",
+  "version": "2.0.0",
+  "description": "Professional AdOps debugging tool. Detects ad units, SSPs, header bidding, and ad tech signals on any page.",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "storage"
   ],
   "action": {
-    "default_popup": "popup.html",
+    "default_popup": "ui/popup/popup.html",
     "default_icon": {
       "128": "icons/icon128.png"
     }
