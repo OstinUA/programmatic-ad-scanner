@@ -1,4 +1,17 @@
-# AdOps X-Ray
+<div align="center">
+
+<pre>
+           _        _                           _                       _            _              _     
+          | |      (_)                         | |                     | |          | |            | |    
+  __ _  __| |______ _ _ __  ___ _ __   ___  ___| |_ ___  _ __ ______ __| | _____   _| |_ ___   ___ | |___ 
+ / _` |/ _` |______| | '_ \/ __| '_ \ / _ \/ __| __/ _ \| '__|______/ _` |/ _ \ \ / / __/ _ \ / _ \| / __|
+| (_| | (_| |      | | | | \__ \ |_) |  __/ (__| || (_) | |        | (_| |  __/\ V /| || (_) | (_) | \__ \
+ \__,_|\__,_|      |_|_| |_|___/ .__/ \___|\___|\__\___/|_|         \__,_|\___| \_/  \__\___/ \___/|_|___/
+                               | |                                                                        
+                               |_|                                                                        
+</pre>
+
+</div>
 
 A developer-first ad diagnostics and logging extension for inspecting live ad slots, SSP integrations, and runtime ad-tech signals directly in the browser.
 
@@ -6,6 +19,10 @@ A developer-first ad diagnostics and logging extension for inspecting live ad sl
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome)](manifest.json)
 [![Lint](https://img.shields.io/badge/lint-eslint-4B32C3?style=for-the-badge&logo=eslint)](package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+<a href="https://github.com/OstinUA/ad-inspector-devtools" target="_blank" rel="noopener"><img src="https://github.com/OstinUA/ad-inspector-devtools/blob/main/image/ad-inspector-devtools-img.png" valign="middle" alt="Sellers.json Inspector"></a>
+
+
 
 ## Table of Contents
 
