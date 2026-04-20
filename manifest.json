@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "AdOps X-Ray",
-  "version": "2.0.1",
+  "name": "Programmatic ad-scanner",
+  "version": "2.0.2",
   "description": "Professional AdOps debugging tool. Detects ad units, SSPs, header bidding, and ad tech signals on any page.",
   "permissions": [
     "activeTab",

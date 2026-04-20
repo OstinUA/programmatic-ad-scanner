@@ -1,14 +1,12 @@
 <div align="center">
 
 <pre>
-           _        _                           _                       _            _              _     
-          | |      (_)                         | |                     | |          | |            | |    
-  __ _  __| |______ _ _ __  ___ _ __   ___  ___| |_ ___  _ __ ______ __| | _____   _| |_ ___   ___ | |___ 
- / _` |/ _` |______| | '_ \/ __| '_ \ / _ \/ __| __/ _ \| '__|______/ _` |/ _ \ \ / / __/ _ \ / _ \| / __|
-| (_| | (_| |      | | | | \__ \ |_) |  __/ (__| || (_) | |        | (_| |  __/\ V /| || (_) | (_) | \__ \
- \__,_|\__,_|      |_|_| |_|___/ .__/ \___|\___|\__\___/|_|         \__,_|\___| \_/  \__\___/ \___/|_|___/
-                               | |                                                                        
-                               |_|                                                                        
+  ____                                                      _   _           _       _                                           
+ |  _ \ _ __ ___   __ _ _ __ __ _ _ __ ___  _ __ ___   __ _| |_(_) ___     / \   __| |      ___  ___ __ _ _ __  _ __   ___ _ __ 
+ | |_) | '__/ _ \ / _` | '__/ _` | '_ ` _ \| '_ ` _ \ / _` | __| |/ __|   / _ \ / _` |_____/ __|/ __/ _` | '_ \| '_ \ / _ \ '__|
+ |  __/| | | (_) | (_| | | | (_| | | | | | | | | | | | (_| | |_| | (__   / ___ \ (_| |_____\__ \ (_| (_| | | | | | | |  __/ |   
+ |_|   |_|  \___/ \__, |_|  \__,_|_| |_| |_|_| |_| |_|\__,_|\__|_|\___| /_/   \_\__,_|     |___/\___\__,_|_| |_|_| |_|\___|_|   
+                  |___/                                                                                                         
 </pre>
 
 </div>
@@ -18,7 +16,7 @@ A developer-first ad diagnostics and logging extension for inspecting live ad sl
 [![Chrome Store](https://img.shields.io/badge/platform-Chrome_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/search/OstinUA)
 [![Chrome Portfolio](https://img.shields.io/badge/Chrome_Web_Store-Portfolio-34A853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ostinua.github.io/Chrome-Web-Store_Developer-List/)
 
-[![Version](https://img.shields.io/badge/version-2.0.0-2ea44f?style=for-the-badge)](manifest.json)
+[![Version](https://img.shields.io/badge/version-2.0.2-2ea44f?style=for-the-badge)](manifest.json)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome)](manifest.json)
 [![Lint](https://img.shields.io/badge/lint-eslint-4B32C3?style=for-the-badge&logo=eslint)](package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
