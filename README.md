@@ -15,6 +15,9 @@
 
 A developer-first ad diagnostics and logging extension for inspecting live ad slots, SSP integrations, and runtime ad-tech signals directly in the browser.
 
+[![Chrome Store](https://img.shields.io/badge/platform-Chrome_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/search/OstinUA)
+[![Chrome Portfolio](https://img.shields.io/badge/Chrome_Web_Store-Portfolio-34A853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ostinua.github.io/Chrome-Web-Store_Developer-List/)
+
 [![Version](https://img.shields.io/badge/version-2.0.0-2ea44f?style=for-the-badge)](manifest.json)
 [![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Manifest%20V3-4285F4?style=for-the-badge&logo=googlechrome)](manifest.json)
 [![Lint](https://img.shields.io/badge/lint-eslint-4B32C3?style=for-the-badge&logo=eslint)](package.json)
